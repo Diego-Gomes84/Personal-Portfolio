@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;}
+
+body{
+    background-color: black;
+    color: white;}
+
+.in{
+    width: 1000px;
+    margin: 0 auto;}
+
+h1{
+    font-size: 70px;}
+
+/*header*/
+
+header {
+    width: 1400px;
+    margin: 50px auto;
+    height: 250px;}
+
+.navtop {
+    display: flex;
+    justify-content: space-between;}
+
+.navtop ol{
+    display: flex;
+    list-style: none;}
+    
+.navtop li{
+    color: #01FF7D;
+    margin-top: 45px;
+    padding-right: 50px;}
+
+.navtop span{
+    color: white;}
+
+.navtop img{
+    height: 100px;}
+
+/*main*/
+
+.first-content p{
+    color: #01FF7D;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;}
+
+.first-content h2{
+    font-size: 40px;
+    color: lightgrey;
+    opacity: 0.6;
+    margin-bottom: 30px;}
+
+.second-content {
+    line-height: 25px;
+    margin-top: 20px;
+    width: 660px;}
+
+/*about*/
+
+
+.about {
+    
+    margin: 300px;
+}
+.container-about{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.about-me{
+    width: 57%;
+    line-height: 25px;
+    
+}
+.about p{
+    width: 570px;
+    font-size: 16px;
+    color: lightgray;
+}
+.about-me h2{
+    color: #01FF7D;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+.photo {
+    width: 30%;}
+
+.photo img{
+    width: 300px;
+    border-radius: 5px;
+    
+}
