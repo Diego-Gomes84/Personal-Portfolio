@@ -6,6 +6,8 @@
 body{
     background-color: black;
     color: white;}
+html {
+    scroll-behavior: smooth;}
 
 .in{
     width: 1000px;
@@ -13,6 +15,18 @@ body{
 
 h1{
     font-size: 70px;}
+
+h2{
+    color: #01FF7D;
+    font-size: 30px;
+    margin-bottom: 30px;}
+a {
+    text-decoration: none;
+    color:#01FF7D;}
+a:hover {
+    opacity: 0.8;
+    color: white;
+}
 
 /*header*/
 
@@ -71,7 +85,7 @@ header {
     align-items: center;
     gap: 100px;
 }
-.about-me{
+.content-about{
     width: 57%;
     line-height: 25px;
     
@@ -81,17 +95,30 @@ header {
     font-size: 16px;
     color: lightgray;
 }
-.about-me h2{
-    color: #01FF7D;
-    font-size: 30px;
-    margin-bottom: 30px;
-    
-}
+
 .photo {
     width: 30%;}
 
 .photo img{
     width: 300px;
-    border-radius: 5px;
+    border-radius: 5px;}
+
+/*experience*/
+
+.experience {
     
+    height: 700px;
+}
+
+.container-exp {
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;}
+    
+.content-left {
+    border-right: 2px solid #01FF7D;
+    padding-right: 70px;
+    padding-left: 150px;
 }
