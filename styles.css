@@ -129,17 +129,15 @@ header {
 }
 .portfolio{
     align-items: center;
-    display: flex;
-    gap: 10px; 
+    
 }
-#work1 {
+#work {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-top: 50px;
-    
+    margin:150px 0;
 }
-#work1 img{
+#work img{
     border-radius: 20px;
 }
 
