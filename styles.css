@@ -22,6 +22,9 @@ h2{
     font-size: 30px;
     margin-bottom: 30px;
 }
+h2 span{
+    color: #fff;
+}
 a {
     text-decoration: none;
     color:#01FF7D;
@@ -41,7 +44,6 @@ a:hover {
 header {
     padding: 80px;
 }
-
 .navtop {
     display: flex;
     justify-content: space-between;
@@ -61,6 +63,39 @@ header {
 .navtop img{
     height: 100px;
 }
+.container {
+    display: flex;
+}
+.container p {
+font-size: 1rem;
+padding: 0.5rem;
+font-weight: bold;
+letter-spacing: 0.1rem;
+text-align: center;
+overflow: hidden;
+}
+.container p span.typed-text {
+font-weight: normal;
+color: #01FF7D;
+}
+.container p span.cursor {
+display: inline-block;
+background-color: #ccc;
+margin-left: 0.1rem;
+width: 3px;
+animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+animation: none;
+}
+@keyframes blink {
+0%  { background-color: #ccc; }
+49% { background-color: #ccc; }
+50% { background-color: transparent; }
+99% { background-color: transparent; }
+100%  { background-color: #ccc; }
+}
+
 /*main*/
 
 .first-content p{
@@ -84,7 +119,8 @@ header {
 /*about*/
 
 .about {
-    margin: 300px 0;
+    margin-top: 120px;
+    padding: 100px 0;
 }
 .container-about{
     display: flex;
@@ -108,7 +144,7 @@ header {
 /*experience*/
 
 .experience {
-    margin: 300px 0;
+    padding: 100px 0;
 }
 
 .container-exp {
@@ -125,11 +161,10 @@ header {
 /*works*/
 
 .works {
-    margin: 300px 0;
+   padding: 100px 0;
 }
 .portfolio{
     align-items: center;
-    
 }
 #work {
     display: flex;
@@ -137,21 +172,32 @@ header {
     gap: 20px;
     margin:150px 0;
 }
-#work img{
+#img-demo {
     border-radius: 20px;
+    transition: transform 1s ease;
+}
+#work img:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease;
 }
 
-.teste {
+.portf-content {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     left: 550px;
     width: 440px;
-    height: 300px;
-    padding: 0 50px;
+    padding: 30px 20px 25px 30px;
     background-color: black;
     border-radius: 20px;
     border: 1px solid #01FF7D;
     line-height: 22px;
+}
+.png-logos{
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
 }
 
 
