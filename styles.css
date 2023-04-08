@@ -1,10 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
 }
 body{
-    background-image: linear-gradient(180deg, #000000, #212020);
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
     color: white;
 }
 html {
@@ -13,7 +13,6 @@ html {
 .in{
     width: 1000px;
     margin: 0 auto;}
-    
 h1{
     font-size: 70px;
 }
@@ -29,20 +28,32 @@ a {
     text-decoration: none;
     color:#01FF7D;
 }
+ul {
+    list-style: none;
+}
 a:hover {
     opacity: 0.8;
     color: white;
+    transform: scale(1.2);
+    transition: transform 1s ease;
 }
 #pstyle{
     line-height: 25px;
     font-size: 16px;
     color: lightgray;   
 }
+.interval{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #ccc;
 
+}
 /*header*/
 
 header {
     padding: 80px;
+    background-image: linear-gradient(180deg, #212020 ,  #000000);
 }
 .navtop {
     display: flex;
@@ -180,7 +191,6 @@ animation: none;
     transform: scale(1.2);
     transition: transform 1s ease;
 }
-
 .portf-content {
     display: flex;
     flex-direction: column;
@@ -199,6 +209,44 @@ animation: none;
     list-style: none;
     margin-top: 20px;
 }
+
+/*contact*/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact p{
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+#contact-btn{
+    margin: 30px auto;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #01FF7D;
+    border-radius: 10px;
+}
+.social {
+    margin-top: 20px;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+.social img{
+    width: 25px;
+}
+.social li:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+
+/*mobile*/
 
 
 
