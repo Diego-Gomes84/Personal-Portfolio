@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head>
 <body>
@@ -16,29 +17,32 @@
         <nav class="navtop">
             <div>
                 <a href="index.html"><img src="img/Logo_DGcode_transparente.png" alt="Logo DG code"></a>
+                <div class="container">
+                <p>Coding is <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
             </div>
-            <ol>
+            </div>
+            
+            <span class="material-symbols-outlined" onclick="clickMenu ()">menu</span>
+            <ol id="menu">
                 <li><span>{1}</span> <a href="#anchor1">About</a></li>
                 <li><span>{2}</span> <a href="#anchor2">Experience</a></li>
                 <li><span>{3}</span> <a href="#anchor3">Works</a></li>
                 <li><span>{4}</span> <a href="#anchor4">Contact</a></li>
             </ol>            
         </nav>
-        <div class="container">
-            <p>Coding is <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-        </div>
+       
     </header>
     <main>
         <div class="in">
             <div class="first-content">
                 <p>Hello Friend!</p>
                 <h1>I'm Diego Gomes.</h1>
-                <h2><span>Design</span> and <span>Imagination</span> to the web_</h2>
+                <h2>Bringing<span> Design</span> and <span>Imagination</span> to the web_</h2>
             </div>
             <div class="second-content">
-                <p>I'm a Front-end Developer focused on HTML CSS and JavaScript and Wordpress.<br>  
-                I'm always interested in Interface Design and Typography.<br>
-                Considering the union between what is beautiful and functional is what inspires me day after day in my projects.
+                <p>I'm a Front-end Developer focused on HTML, CSS, JavaScript, and WordPress.<br>  
+                In addition, I'm always interested in Interface Design andTypography.<br>
+                Weighing the union between beautiful and functional inspires me daily in my projects.
                 </p>
             </div>
         
@@ -46,10 +50,10 @@
                 <div class="container-about">
                     <div class="content-about">
                         <h2><span>{1}</span> Who am i_</h2>
-                        <p id="pstyle">Me chamo Diego e uma das minhas atividades favoritas é compartilhar com o mundo, as diversas possibilidades que a tecnologia pode oferecer.<br>
-                        Considero que atuar com Desenvolvimento Web, é uma excelente oportunidade de ajudar a trazer conhecimento, inclusão e felicidade a vida das pessoas.<br>
-                        Atuo como Desenvolvedor  há cerca de 1 ano, e apesar de sempre ter trabalhado com tecnologia, desde que tive a primeira oportunidade de implementar algo feito por mim, tive certeza  de que esse era esse o caminho a se seguir.</p>
-                        <p id="pstyle">Atualmente estou desenvolvendo e praticando meus conhecimentos em HTML, CSS e JavaScript and Wordpress</p>
+                        <p id="pstyle">One of my favorite activities is sharing the many possibilities technology can offer. Working with Web Development is an excellent opportunity to help bring knowledge, inclusion, and delight to people's lives. I've been working as a Developer for about one year. However, I've always worked with technology, and since I had the first opportunity to create something of my own, I was sure this was the path to follow.<br>
+                        At the moment, I'm developing and practicing my HTML, CSS, JavaScript, and WordPress knowledge.<br>
+                        <p id="pmobile">One of my favorite activities is sharing the many possibilities technology can offer.<br><br> Working with Web Development is an excellent opportunity to help bring knowledge, inclusion, and delight to people's lives.<br><br> I've been working as a Developer for about one year. However, I've always worked with technology, and since I had the first opportunity to create something of my own, I was sure this was the path to follow.<br><br>
+                        At the moment, I'm developing and practicing my HTML, CSS, JavaScript, and WordPress knowledge.<br></p>
                     </div>
                     <div class="photo">
                         <img src="img/foto_1.png" alt="Profile picture">
@@ -64,21 +68,21 @@
                     <div class="content-right">
                         <p>2021 - Present </p>
                         <p id="pstyle">In partnership at OneWebdesign agency<br>
-                        Working as a Front-End developer. <br>Focused on writing maintainable code and using libraries and platforms like Wordpress.</p>
+                        I'm Working as a Front-End developer.<br>i'm focused on writing maintainable code and using libraries and platforms like Wordpress.</p>
                     </div>
                 </div>
             </section>
 
             <section class="works" id="anchor3">
-                <h2><span>{3}</span> Some Projects Developed_ </h2>
-                <p id="pstyle">Aqui estão alguns projetos implementados com algumas das tecnologias com as quais trabalho atualmente:</p>
+                <h2><span>{3}</span> Various Projects Developed_ </h2>
+                <p id="pstyle">Here are some projects executed with some of the languages I currently work with:</p>
                 <div class="portfolio">
                     <div id="work">
                         <img src="img/One_web.png" alt="Onewebdesign site" id="img-demo">
                         <div class="portf-content">
-                            <p>A <a>Onewebdesign</a> oferece gestão de redes sociais, criação de websites, projetos de identidade visual entre outros serviços.<br><br>
-                            A equipe é composta por 3 amigos com funções que se complementam tornando a área de abrangencia muito grande.<br><br>
-                            Tecnologias envolvidas:</p>
+                            <p>A website<a> Onewebdesign</a> a company that offers social media management, website creation, and visual identity projects, among other services.<br><br>
+                            The team comprises three people with roles that complement each other, making the scope area large.<br><br>
+                            Technologies applied:</p>
                             <ul class="png-logos">
                                 <li><img src="img/Html.png" alt=></li>
                                 <li><img src="img/Css3.png" alt=></li>
@@ -87,11 +91,11 @@
                         </div>
                         
                     </div>
-                    <div id="work">
+                    <div id="work2">
                         <div class="portf-content">
-                            <p>A <a>Credoito</a> é um Correspondente Bancário especializado em atender o Crédito Imobiliário de forma rápida, segura e transparente.<br><br>
-                            Considero este projeto um ótimo desafio. Foi necessária uma imersão no segmento imobiliário e bancário para entregar o resultado esperado pelo cliente.<br><br>
-                            Tecnologias envolvidas:<br></p>
+                            <p><a>Credoito</a> is a Correspondent Bank specializing in quickly, securely, and transparently serving Real Estate Credit.<br><br>
+                            This project was a great challenge — an immersion in the real estate and banking segment to deliver the result expected by the client was necessary.<br><br>
+                            Technologies applied:<br></p>
                             <ul class="png-logos">
                                 <li><img src="img/Html.png" alt=></li>
                                 <li><img src="img/Css3.png" alt=></li>
@@ -103,9 +107,9 @@
                     <div id="work">
                         <img src="img/Sardo.png" alt="Sardo Site" id="img-demo">
                         <div class="portf-content">
-                            <p>A <a>Casa do Sardo</a> É um restaurante italiano localizado no coração da cidade do Rio de Janeiro.<br><br>
-                            Este projeto marca o início do trabalho de construção de uma página que oferece entre outras opções, uma loja online com serviço de acompanhamento do delivery do estabelecimento.<br><br>
-                            Tecnologias envolvidas:<br></p>
+                            <p><a>Casa do Sardo</a> is an Italian restaurant in Rio de Janeiro's heart.<br><br>
+                            This project marks the beginning of building a page that offers, among other options, an online store with a service to accompany the delivery of the establishment.<br><br>
+                            Technologies applied:<br></p>
                             <ul class="png-logos">
                                 <li><img src="img/Html.png" alt=></li>
                                 <li><img src="img/Css3.png" alt=></li>
@@ -119,7 +123,7 @@
             <section class="contact" id="anchor4">
                 <h2><span>{4}</span> Get in touch_</h2>
                 <p id=pstyle>I'm always looking for new challenges and connections.<br>   
-                Get in touch to find out more and thanks for the visit!</p>
+                So get in touch to find out more. Thanks for the visit and the fish</p>
                 <a href="https://wa.me/5521998387274" id="contact-btn" target="b
                 ">Say Hello</a>
                 <ul class="social">

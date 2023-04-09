@@ -39,3 +39,14 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+function clickMenu () {
+  if (menu.style.display == 'block') {
+     menu.style.display = 'none'
+    }
+  else {
+    menu.style.display = 'block'
+  }
+  
+
+}
