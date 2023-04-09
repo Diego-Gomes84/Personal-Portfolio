@@ -3,6 +3,8 @@
 
 # Sobre o projeto
 
+https://personal-portfolio-three-blue.vercel.app/
+
 
 A elaboração e implementação deste portfolio é parte importante da divulgação do que fazemos no nosso dia a dia. 
 
